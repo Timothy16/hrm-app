@@ -1,0 +1,37 @@
+<template>
+<div class="main">
+   <div class="form-group has-search">
+    <span class="fa fa-search form-control-feedback"></span>
+    <input type="text" class="form-control" placeholder="Search">
+  </div>
+</div>
+</template>
+
+<script>
+export default {
+
+}
+</script>
+
+<style scoped>
+.main {
+    width: 40%;
+    margin: 10px auto;
+    /* box-shadow: 1px 1px 10px #FFFFFF !important; */
+    padding: 1rem;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+</style>
