@@ -33,7 +33,7 @@
                   class="form-control mb-2 mr-sm-2 mb-sm-0 form-margin l-down"
                   id="inlineFormInputName2"
                   placeholder="Location"
-                />
+                />npm 
                 <button type="submit" class="btn btn-primary btn-edit l-left">Submit</button>
               </form>
             </div>
@@ -116,7 +116,7 @@
     <!-- why job caster -->
     <div class="caster">
       <div class="container pb-5">
-        <div class="caster-title">
+        <div class="caster-title" data-aos="fade-right">
          What we offer you
         </div>
         <div class="row mt-5">

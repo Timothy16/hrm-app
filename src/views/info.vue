@@ -1,12 +1,13 @@
 <template>
   <div>
     <div class="card-background">
-      <div class="bg-new fixed-top">
+      <div class="fixed-top">
         <Navbar />
       </div>
 
+         <div class="card-bg">
       <div class="container">
-        <div class="">
+       
           <!-- Personal Info Start -->
           <div class="card-body">
             <form @submit.prevent="submitBtn()">
@@ -242,7 +243,7 @@ export default {
   /* opacity: 0.88888; */
 }
 .padding-down {
-  margin-top: 8rem;
+  margin-top: 1rem;
 }
 .signUp {
   font-style: normal;
@@ -271,11 +272,14 @@ label {
   margin: 0 10rem;
 }
 .card-background {
-  background: #e5e5e5;
   background-image: url("/img/bg3.png"), url("/img/bg4.png");
   background-position: right top, left bottom;
   background-repeat: no-repeat, no-repeat;
   padding-bottom: 2rem !important;
+}
+.card-bg{
+  /* background: #e5e5e5; */
+  margin-top: 5.5rem;
 }
 .border {
   border: 2px dashed #0065fc !important;

@@ -37,7 +37,7 @@
 
 <style scoped>
 .nav-color{
-  background-color: rgba(255,255,255,0.5) !important;
+  background-color: rgba(255,255,255,1) !important;
 
 }
 .nav-item{
