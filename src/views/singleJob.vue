@@ -16,7 +16,7 @@
             <div></div>
           </div>
         </div>
-        <div class="card shadow-lg p-3 mb-5 bg-white rounded" v-for="getJob in getJobs[0]" :key="getJob.id">
+        <div class="card card-edit-1 shadow-lg p-3 mb-5 bg-white rounded" v-for="getJob in getJobs[0]" :key="getJob.id">
         <div class="card-body">
             <!-- loader -->
              <div class="text-center">
@@ -33,12 +33,28 @@
         </div>
             <!-- loader -->
             <div>
-            <h1>{{getJob.company_name}}</h1> <br>
-            <h3>Job Title : <span style="font-size : 1.3rem">{{getJob.job_title}}</span> </h3> 
-            <h3>Job Type : <span style="font-size : 1.3rem">{{getJob.job_type}}</span> </h3> 
-             <p>Salary Range :  {{getJob.salary_range}}<p>
-            <p><i class="fa fa-map-marker"></i>  {{getJob.company_address}}<p>
-            <p><i class="fa fa-envelope"></i>  {{getJob.company_email}}<p> 
+                <div class="text-center">
+                    <h1>{{getJob.company_name}}</h1>
+                    <h4>{{getJob.job_title}}</h4> 
+                    <h5> <span style="font-size : 1rem"  :class="`shadow rounded-lg
+                                 ${(getJob.job_type=='Full-Time') ? ' bg-info text-white': '' }
+                                 ${(getJob.job_type=='Freelance') ? ' bg-danger text-white': '' }
+                                 ${(getJob.job_type=='Part-Time') ? ' bg-warning text-dark  ': '' }
+                                 ${(getJob.job_type=='Remote') ? ' bg-success text-white': '' } 
+                                 badge py-1 `">{{getJob.job_type}} </span></h5> 
+                    <h5>Salary Range :  {{getJob.salary_range}}</h5>
+                    <div class="d-flex row justify-content-center">
+                            <div>
+                                <i class="fa fa-map-marker"></i>  {{getJob.company_address}}
+                            </div>
+                            <div class="ml-3">
+                                <i class="fa fa-envelope"></i>  {{getJob.company_email}}
+                            </div>
+                </div>
+                </div>
+            
+           
+            <hr style="background-color : #000000">
             <h3>Job Description</h3>
             <p>
                 <ul>
@@ -57,7 +73,7 @@
             </p>
              <div class="">
               <router-link to="/info">
-               <div class="btn btn-primary btn-lg">
+               <div class="btn btn-primary btn-edit btn-lg">
               Apply
             </div>
               </router-link>
@@ -199,5 +215,11 @@ created(){
 }
 ul li{
     margin: 0 2rem !important;
+}
+.btn-edit{
+    padding: 1rem 3rem !important;
+}
+.card-edit-1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
 </style>

@@ -5,7 +5,7 @@
         </div>
         <div class="padding-down bg-cont">
         <div class="container pb-5">
-                    <div class="jobs-title">Latest Jobs</div>
+                    <div class="jobs-title pt-5">Latest Jobs</div>
                      <div class="text-center">
                     <div class="lds-roller loader" v-if="loader">
                         <div></div>
@@ -18,7 +18,7 @@
                         <div></div>
                     </div>
                     </div>
-                    <div class="card mt-3 box-style" v-for="getJob in getJobs.data" :key="getJob.id">
+                    <div class="card card-edit-1 mt-3 box-style" v-for="getJob in getJobs.data" :key="getJob.id">
                         <div class="card-body" >
                             <div class="row ">
                                 <div class="col-sm-4"> 
@@ -32,7 +32,12 @@
                                 </div>
                                 <div class="col-sm-4">
                                     <div class="title">
-                                       <span style="font-weight : bolder">Type</span> : {{getJob.job_type}}
+                                       <span style="font-size : 1rem"  :class="`shadow rounded-lg
+                                 ${(getJob.job_type=='Full-Time') ? ' bg-info text-white': '' }
+                                 ${(getJob.job_type=='Freelance') ? ' bg-danger text-white': '' }
+                                 ${(getJob.job_type=='Part-Time') ? ' bg-warning text-dark  ': '' }
+                                 ${(getJob.job_type=='Remote') ? ' bg-success text-white': '' } 
+                                 badge py-1 `">{{getJob.job_type}} </span>
                                     </div>
                                     <div class="">
                                     <span style="font-weight : bolder">Salary Range</span>  : {{getJob.salary_range}}
@@ -56,7 +61,14 @@
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel"> <span style="font-weight : bolder">Job Title</span>  : {{getJob.job_title}}</h5>
+                                <h5 class="modal-title" id="exampleModalLabel"> 
+                                    <span style="font-size : 1rem"  :class="`shadow rounded-lg
+                                 ${(getJob.job_type=='Full-Time') ? ' bg-info text-white': '' }
+                                 ${(getJob.job_type=='Freelance') ? ' bg-danger text-white': '' }
+                                 ${(getJob.job_type=='Part-Time') ? ' bg-warning text-dark  ': '' }
+                                 ${(getJob.job_type=='Remote') ? ' bg-success text-white': '' } 
+                                 badge py-1 `">{{getJob.job_type}} </span>
+                                </h5>
                                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                 <span aria-hidden="true">&times;</span>
                                 </button>
@@ -148,7 +160,7 @@ export default {
 
 <style scoped>
 .padding-down{
-    padding-top: 10rem;
+    margin-top: 5.5rem;
 }
 .bg-cont{
     background-color: #e5e5e5 !important;
@@ -258,6 +270,9 @@ export default {
 }
 ul li{
     margin: 0 2rem !important;
+}
+.card-edit-1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
 @media only screen and (max-width:578px){
     .btn-margin {

@@ -1,8 +1,8 @@
 <template>
-<div class="shadow nav-color">
+<div class="shadow-nav nav-color">
   <div class="container">
        <nav class="navbar sticky-top navbar-expand-lg navbar-light">
-  <router-link to="/" class="navbar-brand">Job<span style="font-weight : bolder">caster</span> </router-link>
+  <router-link to="/" class="navbar-brand"><span class="text-secondary">Tek</span><span class="text-primary" style="font-weight : bolder">Real</span> </router-link>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -37,14 +37,15 @@
 
 <style scoped>
 .nav-color{
-  background-color: #fff !important;
+  background-color: rgba(255,255,255,0.5) !important;
+
 }
 .nav-item{
     text-transform: uppercase !important;
     padding: 0 .5rem;
 }
 .shadow-nav{
-   box-shadow: 0px 5px 2px 0px #FFFFFF solid !important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
 .btn-edit-1{
   padding: .3rem 1rem !important;

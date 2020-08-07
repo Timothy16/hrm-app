@@ -4,76 +4,58 @@
       <div class="container pb-3">
           <div class="row pt-5 pb-3">
             <div class="col-sm-2">
-              <h5 style="color : #FFFFFF">For Job Seekers</h5>
+              <h5 style="color : #FFFFFF">Job</h5>
               <ul>
                 <li>
-                  Find Jobs
+                  Careers
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-2">
+              <h5 style="color : #FFFFFF">Services</h5>
+              <ul>
+                <li>
+                  Software Development
                 </li>
                 <li>
-                  News
+                  Sales Support
                 </li>
                 <li>
-                  Search Jobs
+                  Software Support
+                </li>
+                <li>
+                  Customer Success Management
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-2">
+              <h5 style="color : #FFFFFF">About Us</h5>
+              <ul>
+                <li>
+                  Company News
+                </li>
+                <li>
+                  Leadership
+                </li>
+                <li>
+                 Expertise
                 </li>
                 <li>
                   Contact
                 </li>
-                <li>
-                  Careers
-                </li>
               </ul>
             </div>
             <div class="col-sm-2">
-              <h5 style="color : #FFFFFF">For Employers</h5>
+              <h5 style="color : #FFFFFF">Polices</h5>
               <ul>
                 <li>
-                  News
+                  Terms and Condition
                 </li>
                 <li>
-                  Find Candidates
+                  Privacy Policy
                 </li>
                 <li>
-                  Terms & Polices
-                </li>
-                <li>
-                  Careers
-                </li>
-              </ul>
-            </div>
-            <div class="col-sm-2">
-              <h5 style="color : #FFFFFF">Archieves</h5>
-              <ul>
-                <li>
-                  January 2020
-                </li>
-                <li>
-                  February 2020
-                </li>
-                <li>
-                  March 2020
-                </li>
-                <li>
-                  April 2020
-                </li>
-                <li>
-                  May 2020
-                </li>
-              </ul>
-            </div>
-            <div class="col-sm-2">
-              <h5 style="color : #FFFFFF">Company</h5>
-              <ul>
-                <li>
-                  About
-                </li>
-                <li>
-                  Team
-                </li>
-                <li>
-                  Terms & Polices
-                </li>
-                <li>
-                  Contact Us
+                  Cookies Policy
                 </li>
               </ul>
             </div>
@@ -90,13 +72,13 @@
                 </li>
                  <li style="color : #FFFFFF">
                   Email <br>
-                 <span style="color : rgb(192,192,192, 0.8)">jobcaster@gmail.com</span> 
+                 <span style="color : rgb(192,192,192, 0.8)">TekReal@gmail.com</span> 
                 </li>
               </ul>
             </div>
           </div>
           <hr style="background-color: #FFFFFF;">
-          <h6 class="text-center" style="color : #FFFFFF">Jobcaster &copy; 2020 All Rights Reserved</h6>
+          <h6 class="text-center" style="color : #FFFFFF">TekReal &copy; 2020 All Rights Reserved</h6>
       </div>
     </div>
     </div>

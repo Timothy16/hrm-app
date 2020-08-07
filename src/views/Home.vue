@@ -6,9 +6,9 @@
     <div class="hero">
       <div class="container">
         <div class="welcome-text">
-          <span style="color : #0065FC">Get</span> Hired.
+          Get <span style="color : #0065FC">Hired.</span>
         </div>
-        <div class="welcome-text-small">Land your Dream Job.......</div>
+        <div class="welcome-text-small">Build your <span style="color : #0065FC">Career</span> with us. <br> Apply now</div>
         <!-- <button type="submit" class="btn btn-primary btn-lg">Find a Job</button>
         <div class="card card-edit">
           <div class="card-body">
@@ -68,7 +68,7 @@
 
         <!-- loader end -->
 
-        <div class="card card-edit-1" v-for="getJob in getJobs.data" :key="getJob.id">
+        <div class="card mt-2 card-edit-1" v-for="getJob in getJobs.data" :key="getJob.id">
           <div class="card-body">
             <div class="row">
               <div class="col-sm-6">
@@ -84,11 +84,11 @@
                 <div class="d-flex">
                   <div>
                     <i class="fa fa-briefcase"></i>
-                    <span style="color : #64A2FF">{{getJob.company_name}}</span>
+                    <span class="ml-1" style="color : #64A2FF; font-size : 1.3rem">{{getJob.company_name}}</span>
                   </div>
                   <div class="ml-3">
                     <i class="fa fa-map-marker"></i>
-                    {{getJob.company_address}}
+                   <span class="ml-1" style="font-size : 1.3rem">{{getJob.company_address}}</span> 
                   </div>
                 </div>
               </div>
@@ -117,16 +117,16 @@
     <div class="caster">
       <div class="container pb-5">
         <div class="caster-title">
-          Why Job<span style="font-weight : bolder; color:black">caster</span>
+         What we offer you
         </div>
         <div class="row mt-5">
           <div class="col-sm-4">
             <div class="card card-color">
               <div class="card-body text-center">
                 <div class="icon">
-                  <i class="fa fa-briefcase"></i>
+                  <i class="fa fa-lightbulb-o"></i>
                 </div>
-                <h4>Search Millions of Jobs</h4>
+                <h4>A Career, not a Job</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, voluptatum!</p>
               </div>
             </div>
@@ -135,9 +135,9 @@
             <div class="card card-color">
               <div class="card-body text-center">
                 <div class="icon">
-                  <i class="fa fa-map-marker"></i>
+                 <i class="fa fa-bullseye" aria-hidden="true"></i>
                 </div>
-                <h4>Location Search</h4>
+                <h4>Unleash your potential</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, voluptatum!</p>
               </div>
             </div>
@@ -148,7 +148,7 @@
                 <div class="icon">
                   <i class="fa fa-plane"></i>
                 </div>
-                <h4>Top Careers</h4>
+                <h4>Be part of somethinng great</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, voluptatum!</p>
               </div>
             </div>
@@ -159,9 +159,9 @@
             <div class="card card-color">
               <div class="card-body text-center">
                 <div class="icon">
-                  <i class="fa fa-user"></i>
+                  <i class="fa fa-desktop"></i>
                 </div>
-                <h4>Seach Expert Candidates</h4>
+                <h4>Professional Learning</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, voluptatum!</p>
               </div>
             </div>
@@ -170,9 +170,9 @@
             <div class="card card-color">
               <div class="card-body text-center">
                 <div class="icon">
-                  <i class="fa fa-address-book-o"></i>
+                  <i class="fa fa-globe" aria-hidden="true"></i>
                 </div>
-                <h4>Easy to Manager Jobs</h4>
+                <h4>Global resources</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, voluptatum!</p>
               </div>
             </div>
@@ -181,9 +181,9 @@
             <div class="card card-color">
               <div class="card-body text-center">
                 <div class="icon">
-                  <i class="fa fa-user-circle-o"></i>
+                  <i class="fa fa-trophy" aria-hidden="true"></i>
                 </div>
-                <h4>Online Reviews</h4>
+                <h4>Realize your full potential</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, voluptatum!</p>
               </div>
             </div>
@@ -195,7 +195,7 @@
     <!-- owl carosel -->
     <div class="mb-5">
       <div class="container mt-5 pt-5">
-        <h3 class="text-center">Happy Employers</h3>
+        <h3 class="text-center">Meet our Team</h3>
 
         <div class="slider mt-5 mb-5 pb-5 shadow text-center">
           <div class="owl-carousel owl-theme">
@@ -206,7 +206,7 @@
               <h3 class="mt-3">
                 Even Leobanno
                 <br />
-                <p style="color : #0065FC">Lead Counsaltant Real-Kit</p>
+                <p style="color : #0065FC">HR Manager</p>
               </h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, beatae!</p>
             </div>
@@ -217,9 +217,9 @@
               <h3 class="mt-3">
                 Caltalan Dee
                 <br />
-                <p style="color : #0065FC">CEO BuildIT</p>
+                <p style="color : #0065FC">Lead Software Engineer</p>
               </h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, beatae!</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, eius?</p>
             </div>
             <div>
               <div class="text-center ml-auto mr-auto mt-5" style="width : 10%; height : 20%">
@@ -228,7 +228,7 @@
               <h3 class="mt-3">
                 Even Leobanno
                 <br />
-                <p style="color : #0065FC">HR-Manager Elite Kings</p>
+                <p style="color : #0065FC">Lead Product Designer</p>
               </h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, beatae!</p>
             </div>
@@ -376,7 +376,7 @@ export default {
 .welcome-text-small {
   font-style: normal;
   font-weight: normal;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #ffffff;
 }
 .form-inline {
@@ -436,6 +436,7 @@ export default {
 .card-edit-1:hover {
   transform: scale(1.01) !important;
   background-color: #ffffff !important;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
 .recentJob {
   background-color: rgb(192, 192, 192, 0.3);
@@ -448,6 +449,7 @@ export default {
   text-align: center;
   font-size: 2rem;
   padding-top: 5rem;
+  color: #0065fc;
 }
 .icon {
   font-size: 3rem;

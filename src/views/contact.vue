@@ -49,7 +49,7 @@
                         <h5 class="mt-3">Phone</h5>
                         <p style="color : #0065FC">+234 810 4399 011</p>
                         <h5 class="mt-3">Email Address</h5>
-                        <p style="color : #0065FC">jobcaster@gmail.com</p>
+                        <p style="color : #0065FC">TekReal@gmail.com</p>
                     </div>
                 </div>
                 <div class="card mt-4">
@@ -171,7 +171,7 @@ export default {
     background-size: cover;
     background-position: center center;
     height: auto;
-    margin-top: 7rem;
+    margin-top: 5.5rem;
 }
 .contact-header{
     padding-top: 2rem;
