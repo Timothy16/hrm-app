@@ -1,9 +1,5 @@
 <template>
     <div>
-        <div class="fixed-top">
-        <Navbar />
-      </div>
-
         <!-- Big Screen -->
         <div class="container desktop-view">
             <div class="card-edit mt-5 card-background">
@@ -97,9 +93,7 @@
                 </div>
             </div>
      <!-- Small Scren End -->
-      <div class="mt-5">
-         <Footer />
-           </div>
+     
         </div>
        
 

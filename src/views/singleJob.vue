@@ -1,8 +1,5 @@
 <template>
     <div>
-         <div class="fixed-top nav-color">
-            <Navbar />
-        </div>
         <div class="container card-down">
              <div class="text-center">
           <div class="lds-roller loader" v-if="loader">
@@ -82,11 +79,7 @@
            
         </div>
       </div>
-        </div>
-        <div class="mt-5">
-         <Footer />
-           </div>
-        
+        </div>        
     </div>
 </template>
 

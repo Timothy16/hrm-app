@@ -1,9 +1,5 @@
 <template>
     <div>
-        <div class="fixed-top">
-        <Navbar />
-      </div>
-
         <div class="container desktop-view">
             <div class="card-edit mt-5 card-background">
                 <div class="">

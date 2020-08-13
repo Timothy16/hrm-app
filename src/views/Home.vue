@@ -1,8 +1,5 @@
 <template>
   <div>
-    <div class="fixed-top nav-color">
-      <Navbar />
-    </div>
     <div class="hero">
       <div class="container">
         <div class="welcome-text">
@@ -84,11 +81,11 @@
                 <div class="d-flex">
                   <div>
                     <i class="fa fa-briefcase"></i>
-                    <span class="ml-1" style="color : #64A2FF; font-size : 1.3rem">{{getJob.company_name}}</span>
+                    <span class="" style="color : #64A2FF; font-size : 1.3rem">{{getJob.company_name}}</span>
                   </div>
                   <div class="ml-3">
                     <i class="fa fa-map-marker"></i>
-                   <span class="ml-1" style="font-size : 1.3rem">{{getJob.company_address}}</span> 
+                   <span class="ml-2" style="font-size : 1.3rem">{{getJob.company_address}}</span> 
                   </div>
                 </div>
               </div>
@@ -115,8 +112,8 @@
 
     <!-- why job caster -->
     <div class="caster">
-      <div class="container pb-5">
-        <div class="caster-title" data-aos="fade-right">
+      <div class="container pb-5" data-aos="fade-up" data-aos-duration="1000" data-aos-anchor-placement="center-bottom">
+        <div class="caster-title">
          What we offer you
         </div>
         <div class="row mt-5">
@@ -148,7 +145,7 @@
                 <div class="icon">
                   <i class="fa fa-plane"></i>
                 </div>
-                <h4>Be part of somethinng great</h4>
+                <h4>Be part of something great</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, voluptatum!</p>
               </div>
             </div>
@@ -274,7 +271,7 @@
     <!-- news letter end -->
 
     <!-- footer -->
-    <Footer />
+    
 
     <!-- footer end -->
   </div>
@@ -436,7 +433,7 @@ export default {
 .card-edit-1:hover {
   transform: scale(1.01) !important;
   background-color: #ffffff !important;
-   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
 }
 .recentJob {
   background-color: rgb(192, 192, 192, 0.3);

@@ -87,9 +87,7 @@
         </form>
       </div>
     </div>
-       <div class="">
-            <Footer />
-        </div>
+
     </div>
 </template>
 

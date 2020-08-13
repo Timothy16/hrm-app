@@ -1,10 +1,6 @@
 <template>
   <div>
     <div class="card-background">
-      <div class="fixed-top">
-        <Navbar />
-      </div>
-
          <div class="card-bg">
       <div class="container">
        
@@ -327,7 +323,7 @@ label {
 }
 textarea {
   outline: none;
-  border: none;
+  border: 1px solid #000000;
   width: 100%;
   height: 150px;
 }

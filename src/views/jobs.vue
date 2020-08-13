@@ -1,8 +1,5 @@
 <template>
     <div>
-        <div class="fixed-top">
-            <Navbar />
-        </div>
         <div class="padding-down bg-cont">
         <div class="container pb-5">
                     <div class="jobs-title pt-5">Latest Jobs</div>
@@ -114,9 +111,6 @@
                     </div>
                 </div>
         </div>
-      <div class="">
-         <Footer />
-           </div>
     </div>
 </template>
 
