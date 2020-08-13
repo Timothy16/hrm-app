@@ -96,7 +96,7 @@
                 <div>
                   <label for>About you</label>
                   <br />
-                  <textarea name id class="p-2" required v-model="info.about_you"></textarea>
+                  <textarea name id class="p-2 form-control" required v-model="info.about_you"></textarea>
                 </div>
               </div>
 
@@ -323,7 +323,7 @@ label {
 }
 textarea {
   outline: none;
-  border: 1px solid #000000;
+  border: 1px solid rgb(192, 192, 192, 1);
   width: 100%;
   height: 150px;
 }
