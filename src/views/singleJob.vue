@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="container card-down">
-             <div class="text-center">
+          <div class="text-center">
           <div class="lds-roller loader" v-if="loader">
             <div></div>
             <div></div>
@@ -15,20 +15,6 @@
         </div>
         <div class="card card-edit-1 shadow-lg p-3 mb-5 bg-white rounded" v-for="getJob in getJobs[0]" :key="getJob.id">
         <div class="card-body">
-            <!-- loader -->
-             <div class="text-center">
-          <div class="lds-roller loader" v-if="loader">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-        </div>
-            <!-- loader -->
             <div>
                 <div class="text-center">
                     <h1>{{getJob.company_name}}</h1>
@@ -214,5 +200,37 @@ ul li{
 }
 .card-edit-1{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    width: 50% !important;
+    margin-left: 15rem !important;
+}
+@media only screen and (min-width: 300px) and (max-width: 350px) {
+     .card-edit-1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    width: 100% !important;
+    margin-left: 0 !important;  
+  }
+  .card-down{
+    margin-top : 7rem !important;
+}
+}
+@media only screen and (min-width: 360px) and (max-width: 578px) {
+    .card-edit-1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    width: 100% !important;
+    margin-left: 0 !important;  
+  }
+    .card-down{
+    margin-top : 7rem !important;
+}
+}
+@media only screen and  (min-width: 768px) and (max-width: 1020px) {
+    .card-edit-1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+    width: 100% !important;
+    margin-left: 0 !important;  
+  }
+    .card-down{
+    margin-top : 7rem !important;
+}
 }
 </style>

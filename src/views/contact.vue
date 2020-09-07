@@ -1,8 +1,8 @@
 <template>
     <div>
-        <div class="fixed-top">
+        <!-- <div class="fixed-top">
             <Navbar />
-        </div>
+        </div> -->
         <div class="hero pb-5">
             <div class="container text-center">
                 <div class="contact-header">

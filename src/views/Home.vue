@@ -5,37 +5,7 @@
         <div class="welcome-text">
           Get <span style="color : #0065FC">Hired.</span>
         </div>
-        <div class="welcome-text-small">Build your <span style="color : #0065FC">Career</span> with us. <br> Apply now</div>
-        <!-- <button type="submit" class="btn btn-primary btn-lg">Find a Job</button>
-        <div class="card card-edit">
-          <div class="card-body">
-            <div class="form-section">
-              <form class="form-inline">
-                <label class="sr-only" for="inlineFormInputName2">Name</label>
-                <input
-                  type="text"
-                  class="form-control mb-2 mr-sm-2 mb-sm-0"
-                  id="inlineFormInputName2"
-                  placeholder="e.g Web Developer"
-                />
-                <select class="custom-select form-margin increase_height">
-                  <option>Job Type</option>
-                  <option>Full Time</option>
-                  <option>Part Time</option>
-                  <option>Remote</option>
-                  <option>Freelance</option>
-                </select>
-                <input
-                  type="text"
-                  class="form-control mb-2 mr-sm-2 mb-sm-0 form-margin l-down"
-                  id="inlineFormInputName2"
-                  placeholder="Location"
-                />npm 
-                <button type="submit" class="btn btn-primary btn-edit l-left">Submit</button>
-              </form>
-            </div>
-          </div>
-        </div> -->
+        <div class="welcome-text-small">Build your <span style="color : #0065FC">Career</span> with us. <br> Apply Now!</div>
       </div>
     </div>
     <!-- Recent Jobs -->
@@ -43,10 +13,6 @@
       <div class="container">
         <div class="d-flex pad-down mb-5">
           <h3>Recent Jobs</h3>
-          <!-- <div class="btn btn-primary ml-auto btn-edit-1 btn-lg">
-            <i class="fa fa-plus"></i>
- Post Jobs
-          </div> -->
         </div>
 
         <!-- loader -->
@@ -367,7 +333,7 @@ export default {
   font-style: normal;
   font-weight: bold;
   font-size: 5rem;
-  padding-top: 18rem;
+  padding-top: 15rem;
   color: #ffffff;
 }
 .welcome-text-small {
@@ -653,6 +619,13 @@ ul li {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .welcome-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5rem;
+    padding-top: 8rem;
+    color: #ffffff;
+}
   .card-edit {
     width: 100% !important;
   }
@@ -661,8 +634,6 @@ ul li {
   }
   .increase_height {
     height: calc(2.8em + 0.75rem + 2px) !important;
-    /* width: 100% !important; */
-    /* padding: .375rem 2rem .375rem .75rem !important; */
   }
   .form-margin {
     margin-left: 1rem;
@@ -684,6 +655,7 @@ ul li {
     width: 100%;
     height: auto;
     padding-bottom: 2rem;
+    padding-bottom: 3rem;
   }
 }
 </style>
